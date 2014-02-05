@@ -220,6 +220,7 @@
 		96DFFC7718A23CFD00CDEAD1 /* newton.plist in Resources */ = {isa = PBXBuildFile; fileRef = 96DFFC7618A23CFD00CDEAD1 /* newton.plist */; };
 		96DFFC7918A23CFD00CDEAD1 /* newton.png in Resources */ = {isa = PBXBuildFile; fileRef = 96DFFC7818A23CFD00CDEAD1 /* newton.png */; };
 		96DFFC8418A23E2D00CDEAD1 /* ConnectScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 96DFFC8318A23E2D00CDEAD1 /* ConnectScene.m */; };
+		96DFFC8718A2439900CDEAD1 /* ControlLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 96DFFC8618A2439900CDEAD1 /* ControlLayout.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -669,6 +670,8 @@
 		96DFFC7818A23CFD00CDEAD1 /* newton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = newton.png; path = Resources/newton.png; sourceTree = "<group>"; };
 		96DFFC8218A23E2D00CDEAD1 /* ConnectScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConnectScene.h; sourceTree = "<group>"; };
 		96DFFC8318A23E2D00CDEAD1 /* ConnectScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConnectScene.m; sourceTree = "<group>"; };
+		96DFFC8518A2439900CDEAD1 /* ControlLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ControlLayout.h; sourceTree = "<group>"; };
+		96DFFC8618A2439900CDEAD1 /* ControlLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ControlLayout.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1570,6 +1573,8 @@
 				96DFFC8318A23E2D00CDEAD1 /* ConnectScene.m */,
 				96DFFC5A18A23CFD00CDEAD1 /* IntroScene.h */,
 				96DFFC5B18A23CFD00CDEAD1 /* IntroScene.m */,
+				96DFFC8518A2439900CDEAD1 /* ControlLayout.h */,
+				96DFFC8618A2439900CDEAD1 /* ControlLayout.m */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -1704,6 +1709,7 @@
 				96DFFA4118A23CFB00CDEAD1 /* CCNodeColor.m in Sources */,
 				96DFFB1A18A23CFB00CDEAD1 /* TransformUtils.m in Sources */,
 				96DFFABB18A23CFB00CDEAD1 /* CCTextureCache.m in Sources */,
+				96DFFC8718A2439900CDEAD1 /* ControlLayout.m in Sources */,
 				96DFFAE618A23CFB00CDEAD1 /* CCAppDelegate.m in Sources */,
 				96DFFAEA18A23CFB00CDEAD1 /* CCDirectorMac.m in Sources */,
 				96DFFA1E18A23CFB00CDEAD1 /* ccDeprecated.m in Sources */,
