@@ -219,8 +219,17 @@
 		96DFFC7518A23CFD00CDEAD1 /* newton-ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 96DFFC7418A23CFD00CDEAD1 /* newton-ipad.png */; };
 		96DFFC7718A23CFD00CDEAD1 /* newton.plist in Resources */ = {isa = PBXBuildFile; fileRef = 96DFFC7618A23CFD00CDEAD1 /* newton.plist */; };
 		96DFFC7918A23CFD00CDEAD1 /* newton.png in Resources */ = {isa = PBXBuildFile; fileRef = 96DFFC7818A23CFD00CDEAD1 /* newton.png */; };
-		96DFFC8418A23E2D00CDEAD1 /* ConnectScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 96DFFC8318A23E2D00CDEAD1 /* ConnectScene.m */; };
-		96DFFC8718A2439900CDEAD1 /* ControlLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 96DFFC8618A2439900CDEAD1 /* ControlLayout.m */; };
+		96DFFCD518A2533C00CDEAD1 /* ConnectScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 96DFFCD018A2533C00CDEAD1 /* ConnectScene.m */; };
+		96DFFCD618A2533C00CDEAD1 /* ControlLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 96DFFCD218A2533C00CDEAD1 /* ControlLayout.m */; };
+		96DFFCD718A2533C00CDEAD1 /* Joy2Button.m in Sources */ = {isa = PBXBuildFile; fileRef = 96DFFCD418A2533C00CDEAD1 /* Joy2Button.m */; };
+		96DFFCE618A2536F00CDEAD1 /* ColoredCircleSprite.m in Sources */ = {isa = PBXBuildFile; fileRef = 96DFFCD918A2536F00CDEAD1 /* ColoredCircleSprite.m */; };
+		96DFFCE718A2536F00CDEAD1 /* ColoredSquareSprite.m in Sources */ = {isa = PBXBuildFile; fileRef = 96DFFCDB18A2536F00CDEAD1 /* ColoredSquareSprite.m */; };
+		96DFFCE818A2536F00CDEAD1 /* SneakyButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 96DFFCDD18A2536F00CDEAD1 /* SneakyButton.m */; };
+		96DFFCE918A2536F00CDEAD1 /* SneakyButtonSkinnedBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 96DFFCDF18A2536F00CDEAD1 /* SneakyButtonSkinnedBase.m */; };
+		96DFFCEB18A2536F00CDEAD1 /* SneakyJoystick.m in Sources */ = {isa = PBXBuildFile; fileRef = 96DFFCE318A2536F00CDEAD1 /* SneakyJoystick.m */; };
+		96DFFCEC18A2536F00CDEAD1 /* SneakyJoystickSkinnedBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 96DFFCE518A2536F00CDEAD1 /* SneakyJoystickSkinnedBase.m */; };
+		96DFFCF218A2548E00CDEAD1 /* SneakyJoystickSkinnedDPadExample.m in Sources */ = {isa = PBXBuildFile; fileRef = 96DFFCEF18A2548E00CDEAD1 /* SneakyJoystickSkinnedDPadExample.m */; };
+		96DFFCF318A2548E00CDEAD1 /* SneakyJoystickSkinnedJoystickExample.m in Sources */ = {isa = PBXBuildFile; fileRef = 96DFFCF118A2548E00CDEAD1 /* SneakyJoystickSkinnedJoystickExample.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -668,10 +677,28 @@
 		96DFFC7418A23CFD00CDEAD1 /* newton-ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "newton-ipad.png"; path = "Resources/newton-ipad.png"; sourceTree = "<group>"; };
 		96DFFC7618A23CFD00CDEAD1 /* newton.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = newton.plist; path = Resources/newton.plist; sourceTree = "<group>"; };
 		96DFFC7818A23CFD00CDEAD1 /* newton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = newton.png; path = Resources/newton.png; sourceTree = "<group>"; };
-		96DFFC8218A23E2D00CDEAD1 /* ConnectScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConnectScene.h; sourceTree = "<group>"; };
-		96DFFC8318A23E2D00CDEAD1 /* ConnectScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConnectScene.m; sourceTree = "<group>"; };
-		96DFFC8518A2439900CDEAD1 /* ControlLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ControlLayout.h; sourceTree = "<group>"; };
-		96DFFC8618A2439900CDEAD1 /* ControlLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ControlLayout.m; sourceTree = "<group>"; };
+		96DFFCCF18A2533C00CDEAD1 /* ConnectScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ConnectScene.h; path = Classes/ConnectScene.h; sourceTree = "<group>"; };
+		96DFFCD018A2533C00CDEAD1 /* ConnectScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ConnectScene.m; path = Classes/ConnectScene.m; sourceTree = "<group>"; };
+		96DFFCD118A2533C00CDEAD1 /* ControlLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ControlLayout.h; path = Classes/ControlLayout.h; sourceTree = "<group>"; };
+		96DFFCD218A2533C00CDEAD1 /* ControlLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ControlLayout.m; path = Classes/ControlLayout.m; sourceTree = "<group>"; };
+		96DFFCD318A2533C00CDEAD1 /* Joy2Button.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Joy2Button.h; path = Classes/Joy2Button.h; sourceTree = "<group>"; };
+		96DFFCD418A2533C00CDEAD1 /* Joy2Button.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Joy2Button.m; path = Classes/Joy2Button.m; sourceTree = "<group>"; };
+		96DFFCD818A2536F00CDEAD1 /* ColoredCircleSprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ColoredCircleSprite.h; path = Classes/ColoredCircleSprite.h; sourceTree = "<group>"; };
+		96DFFCD918A2536F00CDEAD1 /* ColoredCircleSprite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ColoredCircleSprite.m; path = Classes/ColoredCircleSprite.m; sourceTree = "<group>"; };
+		96DFFCDA18A2536F00CDEAD1 /* ColoredSquareSprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ColoredSquareSprite.h; path = Classes/ColoredSquareSprite.h; sourceTree = "<group>"; };
+		96DFFCDB18A2536F00CDEAD1 /* ColoredSquareSprite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ColoredSquareSprite.m; path = Classes/ColoredSquareSprite.m; sourceTree = "<group>"; };
+		96DFFCDC18A2536F00CDEAD1 /* SneakyButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SneakyButton.h; path = Classes/SneakyButton.h; sourceTree = "<group>"; };
+		96DFFCDD18A2536F00CDEAD1 /* SneakyButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SneakyButton.m; path = Classes/SneakyButton.m; sourceTree = "<group>"; };
+		96DFFCDE18A2536F00CDEAD1 /* SneakyButtonSkinnedBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SneakyButtonSkinnedBase.h; path = Classes/SneakyButtonSkinnedBase.h; sourceTree = "<group>"; };
+		96DFFCDF18A2536F00CDEAD1 /* SneakyButtonSkinnedBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SneakyButtonSkinnedBase.m; path = Classes/SneakyButtonSkinnedBase.m; sourceTree = "<group>"; };
+		96DFFCE218A2536F00CDEAD1 /* SneakyJoystick.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SneakyJoystick.h; path = Classes/SneakyJoystick.h; sourceTree = "<group>"; };
+		96DFFCE318A2536F00CDEAD1 /* SneakyJoystick.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SneakyJoystick.m; path = Classes/SneakyJoystick.m; sourceTree = "<group>"; };
+		96DFFCE418A2536F00CDEAD1 /* SneakyJoystickSkinnedBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SneakyJoystickSkinnedBase.h; path = Classes/SneakyJoystickSkinnedBase.h; sourceTree = "<group>"; };
+		96DFFCE518A2536F00CDEAD1 /* SneakyJoystickSkinnedBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SneakyJoystickSkinnedBase.m; path = Classes/SneakyJoystickSkinnedBase.m; sourceTree = "<group>"; };
+		96DFFCEE18A2548E00CDEAD1 /* SneakyJoystickSkinnedDPadExample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SneakyJoystickSkinnedDPadExample.h; path = Classes/SneakyJoystickSkinnedDPadExample.h; sourceTree = "<group>"; };
+		96DFFCEF18A2548E00CDEAD1 /* SneakyJoystickSkinnedDPadExample.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SneakyJoystickSkinnedDPadExample.m; path = Classes/SneakyJoystickSkinnedDPadExample.m; sourceTree = "<group>"; };
+		96DFFCF018A2548E00CDEAD1 /* SneakyJoystickSkinnedJoystickExample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SneakyJoystickSkinnedJoystickExample.h; path = Classes/SneakyJoystickSkinnedJoystickExample.h; sourceTree = "<group>"; };
+		96DFFCF118A2548E00CDEAD1 /* SneakyJoystickSkinnedJoystickExample.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SneakyJoystickSkinnedJoystickExample.m; path = Classes/SneakyJoystickSkinnedJoystickExample.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1567,16 +1594,50 @@
 		96DFFC5318A23CFD00CDEAD1 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				96DFFCCF18A2533C00CDEAD1 /* ConnectScene.h */,
+				96DFFCD018A2533C00CDEAD1 /* ConnectScene.m */,
 				96DFFC5418A23CFD00CDEAD1 /* AppDelegate.h */,
 				96DFFC5518A23CFD00CDEAD1 /* AppDelegate.m */,
-				96DFFC8218A23E2D00CDEAD1 /* ConnectScene.h */,
-				96DFFC8318A23E2D00CDEAD1 /* ConnectScene.m */,
 				96DFFC5A18A23CFD00CDEAD1 /* IntroScene.h */,
 				96DFFC5B18A23CFD00CDEAD1 /* IntroScene.m */,
-				96DFFC8518A2439900CDEAD1 /* ControlLayout.h */,
-				96DFFC8618A2439900CDEAD1 /* ControlLayout.m */,
+				96DFFC8B18A24A2000CDEAD1 /* Layout */,
 			);
 			name = Classes;
+			sourceTree = "<group>";
+		};
+		96DFFC8B18A24A2000CDEAD1 /* Layout */ = {
+			isa = PBXGroup;
+			children = (
+				96DFFCED18A2538B00CDEAD1 /* SneakyInput */,
+				96DFFCD118A2533C00CDEAD1 /* ControlLayout.h */,
+				96DFFCD218A2533C00CDEAD1 /* ControlLayout.m */,
+				96DFFCD318A2533C00CDEAD1 /* Joy2Button.h */,
+				96DFFCD418A2533C00CDEAD1 /* Joy2Button.m */,
+			);
+			name = Layout;
+			sourceTree = "<group>";
+		};
+		96DFFCED18A2538B00CDEAD1 /* SneakyInput */ = {
+			isa = PBXGroup;
+			children = (
+				96DFFCEE18A2548E00CDEAD1 /* SneakyJoystickSkinnedDPadExample.h */,
+				96DFFCEF18A2548E00CDEAD1 /* SneakyJoystickSkinnedDPadExample.m */,
+				96DFFCF018A2548E00CDEAD1 /* SneakyJoystickSkinnedJoystickExample.h */,
+				96DFFCF118A2548E00CDEAD1 /* SneakyJoystickSkinnedJoystickExample.m */,
+				96DFFCD818A2536F00CDEAD1 /* ColoredCircleSprite.h */,
+				96DFFCD918A2536F00CDEAD1 /* ColoredCircleSprite.m */,
+				96DFFCDA18A2536F00CDEAD1 /* ColoredSquareSprite.h */,
+				96DFFCDB18A2536F00CDEAD1 /* ColoredSquareSprite.m */,
+				96DFFCDC18A2536F00CDEAD1 /* SneakyButton.h */,
+				96DFFCDD18A2536F00CDEAD1 /* SneakyButton.m */,
+				96DFFCDE18A2536F00CDEAD1 /* SneakyButtonSkinnedBase.h */,
+				96DFFCDF18A2536F00CDEAD1 /* SneakyButtonSkinnedBase.m */,
+				96DFFCE218A2536F00CDEAD1 /* SneakyJoystick.h */,
+				96DFFCE318A2536F00CDEAD1 /* SneakyJoystick.m */,
+				96DFFCE418A2536F00CDEAD1 /* SneakyJoystickSkinnedBase.h */,
+				96DFFCE518A2536F00CDEAD1 /* SneakyJoystickSkinnedBase.m */,
+			);
+			name = SneakyInput;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1691,10 +1752,12 @@
 			files = (
 				96DFFA5B18A23CFB00CDEAD1 /* CCParticleBatchNode.m in Sources */,
 				96DFFBD318A23CFC00CDEAD1 /* CCBReader.m in Sources */,
+				96DFFCE918A2536F00CDEAD1 /* SneakyButtonSkinnedBase.m in Sources */,
 				96DFFB8318A23CFC00CDEAD1 /* CCButton.m in Sources */,
 				96DFFB2E18A23CFC00CDEAD1 /* OALAudioActions.m in Sources */,
 				96DFFB7318A23CFC00CDEAD1 /* NSMutableArray+WeakReferences.m in Sources */,
 				96DFFAED18A23CFB00CDEAD1 /* CCGLView.m in Sources */,
+				96DFFCE718A2536F00CDEAD1 /* ColoredSquareSprite.m in Sources */,
 				96DFFBB718A23CFC00CDEAD1 /* mat4.c in Sources */,
 				96DFFA1318A23CFB00CDEAD1 /* CCAtlasNode.m in Sources */,
 				96DFFB6118A23CFC00CDEAD1 /* OpenALManager.m in Sources */,
@@ -1707,11 +1770,14 @@
 				96DFFACE18A23CFB00CDEAD1 /* CCTransition.m in Sources */,
 				96DFFAAD18A23CFB00CDEAD1 /* CCSpriteFrame.m in Sources */,
 				96DFFA4118A23CFB00CDEAD1 /* CCNodeColor.m in Sources */,
+				96DFFCE618A2536F00CDEAD1 /* ColoredCircleSprite.m in Sources */,
 				96DFFB1A18A23CFB00CDEAD1 /* TransformUtils.m in Sources */,
+				96DFFCF218A2548E00CDEAD1 /* SneakyJoystickSkinnedDPadExample.m in Sources */,
 				96DFFABB18A23CFB00CDEAD1 /* CCTextureCache.m in Sources */,
-				96DFFC8718A2439900CDEAD1 /* ControlLayout.m in Sources */,
+				96DFFCD618A2533C00CDEAD1 /* ControlLayout.m in Sources */,
 				96DFFAE618A23CFB00CDEAD1 /* CCAppDelegate.m in Sources */,
 				96DFFAEA18A23CFB00CDEAD1 /* CCDirectorMac.m in Sources */,
+				96DFFCEB18A2536F00CDEAD1 /* SneakyJoystick.m in Sources */,
 				96DFFA1E18A23CFB00CDEAD1 /* ccDeprecated.m in Sources */,
 				96DFFB4D18A23CFC00CDEAD1 /* ALContext.m in Sources */,
 				96DFFA2918A23CFB00CDEAD1 /* CCDrawNode.m in Sources */,
@@ -1750,6 +1816,7 @@
 				96DFFAA318A23CFB00CDEAD1 /* CCSprite.m in Sources */,
 				96DFF9FF18A23CFA00CDEAD1 /* CCActionInterval.m in Sources */,
 				96DFFA6E18A23CFB00CDEAD1 /* CCPhysicsJoint.m in Sources */,
+				96DFFCE818A2536F00CDEAD1 /* SneakyButton.m in Sources */,
 				96DFFA4C18A23CFB00CDEAD1 /* CCMotionStreak.m in Sources */,
 				96DFF9FC18A23CFA00CDEAD1 /* CCActionInstant.m in Sources */,
 				96DFFAF618A23CFB00CDEAD1 /* base64.c in Sources */,
@@ -1758,9 +1825,12 @@
 				96DFFA6B18A23CFB00CDEAD1 /* CCPhysicsBody.m in Sources */,
 				96DFFAF018A23CFB00CDEAD1 /* CCWindow.m in Sources */,
 				96DFFA0518A23CFA00CDEAD1 /* CCActionProgressTimer.m in Sources */,
+				96DFFCEC18A2536F00CDEAD1 /* SneakyJoystickSkinnedBase.m in Sources */,
 				96DFFBBB18A23CFC00CDEAD1 /* plane.c in Sources */,
 				96DFFB3E18A23CFC00CDEAD1 /* OALSimpleAudio.m in Sources */,
 				96DFFA3018A23CFB00CDEAD1 /* CCGLProgram.m in Sources */,
+				96DFFCD518A2533C00CDEAD1 /* ConnectScene.m in Sources */,
+				96DFFCF318A2548E00CDEAD1 /* SneakyJoystickSkinnedJoystickExample.m in Sources */,
 				96DFFC5218A23CFD00CDEAD1 /* main.m in Sources */,
 				96DFFB6518A23CFC00CDEAD1 /* OALAudioSession.m in Sources */,
 				96DFFBDC18A23CFC00CDEAD1 /* CCBLocalizationManager.m in Sources */,
@@ -1791,6 +1861,7 @@
 				96DFFB5018A23CFC00CDEAD1 /* ALDevice.m in Sources */,
 				96DFFBC318A23CFC00CDEAD1 /* vec2.c in Sources */,
 				96DFF9F318A23CFA00CDEAD1 /* CCAction.m in Sources */,
+				96DFFCD718A2533C00CDEAD1 /* Joy2Button.m in Sources */,
 				96DFFA5718A23CFB00CDEAD1 /* CCParallaxNode.m in Sources */,
 				96DFFBBF18A23CFC00CDEAD1 /* ray2.c in Sources */,
 				96DFFB3B18A23CFC00CDEAD1 /* OALAudioTracks.m in Sources */,
@@ -1817,7 +1888,6 @@
 				96DFFADC18A23CFB00CDEAD1 /* CCES2Renderer.m in Sources */,
 				96DFFBAC18A23CFC00CDEAD1 /* aabb.c in Sources */,
 				96DFFBD618A23CFC00CDEAD1 /* CCBsequence.m in Sources */,
-				96DFFC8418A23E2D00CDEAD1 /* ConnectScene.m in Sources */,
 				96DFFA3718A23CFB00CDEAD1 /* CCLabelAtlas.m in Sources */,
 				96DFFAD218A23CFB00CDEAD1 /* cocos2d.m in Sources */,
 				96DFFB5A18A23CFC00CDEAD1 /* ALSource.m in Sources */,

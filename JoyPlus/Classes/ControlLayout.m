@@ -32,7 +32,7 @@
     [backButton setTarget:self selector:@selector(onBackClicked:)];
     [self addChild:backButton];
     
-    // Done
+    // done
     return self;
 }
 
@@ -41,6 +41,28 @@
     // back to intro scene with transition
     [[CCDirector sharedDirector] replaceScene:[IntroScene scene]
                                withTransition:[CCTransition transitionPushWithDirection:CCTransitionDirectionRight duration:1.0f]];
+}
+
+// ----------------------------------------------------------
+
+- (SneakyButtonSkinnedBase*)createButton;
+{
+    SneakyButtonSkinnedBase *btn = [[SneakyButtonSkinnedBase alloc] init];
+    btn.defaultSprite = [ColoredCircleSprite circleWithColor:[CCColor colorWithRed:0.5 green:1 blue:0.5 alpha:0.5f] radius:32];
+    btn.activatedSprite = [ColoredCircleSprite circleWithColor:[CCColor colorWithRed:1 green:1 blue:1 alpha:1] radius:32];
+    btn.pressSprite = [ColoredCircleSprite circleWithColor:[CCColor colorWithRed:1 green:0 blue:0 alpha:1] radius:32];
+    btn.button = [[SneakyButton alloc] initWithRect:CGRectMake(0, 0, 64, 64)];
+    
+    return btn;
+}
+
+- (SneakyJoystickSkinnedBase*)createJoystick
+{
+    SneakyJoystickSkinnedBase *leftJoy = [[SneakyJoystickSkinnedBase alloc] init];
+    leftJoy.backgroundSprite = [ColoredCircleSprite circleWithColor:[CCColor colorWithRed:1 green:0 blue:0 alpha:0.5] radius:64];
+    leftJoy.thumbSprite = [ColoredCircleSprite circleWithColor:[CCColor colorWithRed:0 green:0 blue:1 alpha:0.8f] radius:32];
+    leftJoy.joystick = [[SneakyJoystick alloc] initWithRect:CGRectMake(0,0,128,128)];
+    return leftJoy;
 }
 
 @end

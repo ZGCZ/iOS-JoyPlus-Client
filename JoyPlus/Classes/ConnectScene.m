@@ -9,6 +9,7 @@
 #import "ConnectScene.h"
 #import "IntroScene.h"
 #import "ControlLayout.h"
+#import "Joy2Button.h"
 
 @implementation ConnectScene
 
@@ -57,7 +58,7 @@
 
 - (void)onNextClicked:(id)sender
 {
-    [[CCDirector sharedDirector] replaceScene:[[ControlLayout alloc] init] withTransition:[CCTransition transitionPushWithDirection:CCTransitionDirectionRight duration:1.0f]];
+    [[CCDirector sharedDirector] replaceScene:[Joy2Button scene] withTransition:[CCTransition transitionPushWithDirection:CCTransitionDirectionRight duration:1.0f]];
 }
 
 @end
